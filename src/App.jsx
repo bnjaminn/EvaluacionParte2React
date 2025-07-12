@@ -1,3 +1,5 @@
+//Trabajo hecho por Benjamin Andres Bravo Campaña
+//Carrera: Analista Programador
 import React from 'react';
 import { Container, Row, Col, Button, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';

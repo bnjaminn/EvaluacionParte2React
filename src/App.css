@@ -1,0 +1,95 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/img/fondopagina.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Bebas Neue', sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 900;
+  color: white;
+  text-align: center; 
+    background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  text-align: center; 
+}
+
+.titulo-principal,
+.sonic-impacto {
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  color: white;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 90%;
+  text-align: center; 
+}
+
+.gif-sonic {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin: 1rem auto;
+  display: block;
+}
+
+.ver-razones,
+.ver-creador {
+  background-color: #6dc4f2 !important;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+footer h1 {
+  font-size: 2rem;
+  text-align: center; 
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center; 
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; 
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .titulo-principal,
+  .sonic-impacto {
+    padding: 1rem;
+    font-size: 1.2rem;
+  }
+
+  h1, h2, h3 {
+    font-size: 2rem !important;
+    color: white;
+  }
+
+  .carousel-item img {
+    height: 300px;
+  }
+}
